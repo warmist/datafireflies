@@ -37,7 +37,7 @@ int main(int, char**)
     // Setup ImGui binding
     ImGui_ImplGlfwGL3_Init(window, true);
 
-    ImVec4 clear_color = ImColor(114, 144, 154);
+    ImVec4 clear_color = ImColor(5, 5, 5);
     
     // Main loop
     while (!glfwWindowShouldClose(window))
